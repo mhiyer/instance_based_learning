@@ -132,7 +132,6 @@ class kNN:
         
     # get a vote of the neighbours as to what value to assign to the test point being analyzed
     # in effect, get the most common target shared
-    # in the event of a tie, roll an n-sided die
     def vote(self):
         # define a value for max_occurrence and class assigned
         max_occurrence = 0
